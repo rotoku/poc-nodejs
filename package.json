@@ -1,0 +1,34 @@
+{
+  "name": "poc-nodejs",
+  "version": "1.0.0",
+  "description": "POC using NodeJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotoku/poc-nodejs.git"
+  },
+  "keywords": [
+    "POC",
+    "NodeJS",
+    "API"
+  ],
+  "author": "Rodrigo Tomio Kumabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotoku/poc-nodejs/issues"
+  },
+  "homepage": "https://github.com/rotoku/poc-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "jest": "^27.2.1"
+  }
+}
