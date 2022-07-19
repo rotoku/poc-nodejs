@@ -3,8 +3,9 @@ name: Continuous Integration
 on: push
 
 jobs:
-  name: Build
-  runs-on: ubuntu-latest
-  steps:
-    - name: Build
-      run: echo Build
+  Build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: echo Build
